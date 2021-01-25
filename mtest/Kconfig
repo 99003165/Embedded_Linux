@@ -1,0 +1,11 @@
+config SIMPLE
+	tristate "Simple module"
+	default n
+	help
+		A simple module
+config SAMPLE
+	tristate "Sample module"
+	depends on SIMPLE
+	default n
+	help
+		 A sample module

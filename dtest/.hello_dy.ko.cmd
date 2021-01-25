@@ -1,0 +1,1 @@
+cmd_drivers/char/dtest/hello_dy.ko := arm-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o drivers/char/dtest/hello_dy.ko drivers/char/dtest/hello_dy.o drivers/char/dtest/hello_dy.mod.o ;  true
