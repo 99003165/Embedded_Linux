@@ -1,0 +1,1 @@
+cmd_/home/user/EmbeddedLinux/Modules/hello_module/modules.order := {   echo /home/user/EmbeddedLinux/Modules/hello_module/hello.ko; :; } | awk '!x[$$0]++' - > /home/user/EmbeddedLinux/Modules/hello_module/modules.order

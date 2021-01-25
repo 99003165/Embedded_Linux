@@ -1,0 +1,1 @@
+cmd_/home/user/EmbeddedLinux/Drivers/Step7/driver7.ko := arm-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/user/EmbeddedLinux/Drivers/Step7/driver7.ko /home/user/EmbeddedLinux/Drivers/Step7/driver7.o /home/user/EmbeddedLinux/Drivers/Step7/driver7.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_/home/user/EmbeddedLinux/Modules/module_parameter/modhello.ko := arm-linux-gnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/user/EmbeddedLinux/Modules/module_parameter/modhello.ko /home/user/EmbeddedLinux/Modules/module_parameter/modhello.o /home/user/EmbeddedLinux/Modules/module_parameter/modhello.mod.o ;  true

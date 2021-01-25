@@ -1,0 +1,2 @@
+0x00000000	sayHello	/home/user/EmbeddedLinux/Modules/module_param_simple/simple	EXPORT_SYMBOL_GPL
+0x00000000	xvar	/home/user/EmbeddedLinux/Modules/module_param_simple/simple	EXPORT_SYMBOL_GPL

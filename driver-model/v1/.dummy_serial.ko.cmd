@@ -1,0 +1,1 @@
+cmd_/home/user/EmbeddedLinux/driver-model/v1/dummy_serial.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/user/EmbeddedLinux/driver-model/v1/dummy_serial.ko /home/user/EmbeddedLinux/driver-model/v1/dummy_serial.o /home/user/EmbeddedLinux/driver-model/v1/dummy_serial.mod.o;  true
